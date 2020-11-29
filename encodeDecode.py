@@ -5,7 +5,11 @@ def print_Code(x):
     
     output=''
     output=output.join(x)
+    print()
+    print("--------------------------")
     print("Result : " + output)
+    print("--------------------------")
+    print()
     main()
 
 
