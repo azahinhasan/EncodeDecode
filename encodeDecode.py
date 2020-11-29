@@ -5,7 +5,7 @@ def print_Code(x):
     
     output=''
     output=output.join(x)
-    print(output)
+    print("Result : " + output)
     main()
 
 
@@ -42,10 +42,9 @@ def main():
       
   
 
-  print("Input the Value:")
-  x = list(input())
-  print("Chose your Option (1: encode  or 2: decode):")
-  options = input()
+
+  x = list(input("Input the Value: "))
+  options = input("Chose your Option (1: encode  or 2: decode) : ")
   if  options == '1':
       encode(x)
   elif  options == '2':
